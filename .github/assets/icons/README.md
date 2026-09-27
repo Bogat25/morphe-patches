@@ -58,6 +58,7 @@ Every icon was taken from the developer's own published listing, website, or sou
 | `vllo.png` | VLLO (`com.darinsoft.vimo`) | vimosoft | [Google Play listing](https://play.google.com/store/apps/details?id=com.darinsoft.vimo) (`og:image`) |
 | `terabox.png` | TeraBox (`com.dubox.drive`) | Flextech Inc. | [Google Play listing](https://play.google.com/store/apps/details?id=com.dubox.drive) (`og:image`) |
 | `echogram.png` | Echogram (`com.liori.echogram`) | Illuzion Apps | [Google Play listing](https://play.google.com/store/apps/details?id=com.liori.echogram) (`og:image`) |
+| `cxxdroid.png` | Cxxdroid (`ru.iiec.cxxdroid`) | IIEC | [Google Play listing](https://play.google.com/store/apps/details?id=ru.iiec.cxxdroid) (`og:image`) |
 
 `showly.png` comes from a repository published under GPLv3, so its copyright terms are
 compatible with this one. The rest are used under nominative fair use only, with no

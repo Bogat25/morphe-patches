@@ -69,6 +69,17 @@ internal object AppCompatibilities {
         targets = listOf(AppTarget(version = "2.7.8", versionCode = 278, minSdk = 21)),
     )
 
+    val CXXDROID = Compatibility(
+        name = "Cxxdroid",
+        packageName = "ru.iiec.cxxdroid",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x51596D,
+        targets = listOf(
+            AppTarget(version = "5.6_arm64", versionCode = 1074, minSdk = 21),
+            AppTarget(version = "6.0_arm64", versionCode = 1075, minSdk = 21),
+        ),
+    )
+
     val DWG_FASTVIEW = Compatibility(
         name = "DWG FastView",
         packageName = "com.gstarmc.android",

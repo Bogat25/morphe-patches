@@ -223,6 +223,7 @@ ICONS = {
     "com.darinsoft.vimo": "vllo.png",
     "com.dubox.drive": "terabox.png",
     "com.liori.echogram": "echogram.png",
+    "ru.iiec.cxxdroid": "cxxdroid.png",
 }
 
 
