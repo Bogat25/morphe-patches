@@ -1,3 +1,16 @@
+## [1.33.0](https://github.com/hxreborn/morphe-patches/compare/v1.32.0...v1.33.0) (2026-09-27)
+
+### Bug Fixes
+
+* **TeraBox - Unlock Premium Plus:** play HD on shared links ([c265749](https://github.com/hxreborn/morphe-patches/commit/c26574902720ca83d0c735f8681eb38d8e7b137d))
+* **TeraBox - Unlock Premium Plus:** start HD playback on large videos ([6235864](https://github.com/hxreborn/morphe-patches/commit/623586488d2a73d5efa2a0b45a3e5ea2910e462e)), closes [#92](https://github.com/hxreborn/morphe-patches/issues/92)
+
+### New Features
+
+* **Jvdroid:** unlock premium, remove ads, add AMOLED theme and disable tracking ([4a35646](https://github.com/hxreborn/morphe-patches/commit/4a356467280f38de488929eee0e959ed8e65b0b6))
+* **Proton Mail:** add support for 7.11.8 ([cffca92](https://github.com/hxreborn/morphe-patches/commit/cffca9287515bd56315223b021b9fe4932a33ee3)), closes [#89](https://github.com/hxreborn/morphe-patches/issues/89)
+* **Pydroid 3:** unlock premium, remove ads, add AMOLED theme and disable tracking ([8adf062](https://github.com/hxreborn/morphe-patches/commit/8adf0622131583b9aeb10c0008dce1d68725b58c)), closes [#96](https://github.com/hxreborn/morphe-patches/issues/96)
+
 ## [1.32.0](https://github.com/hxreborn/morphe-patches/compare/v1.31.0...v1.32.0) (2026-09-27)
 
 ### New Features

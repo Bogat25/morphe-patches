@@ -31,7 +31,7 @@ recorded in the Git history.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.32.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.32.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;93 patches total
+> **[v1.33.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.33.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;99 patches total
 <details open>
 <summary><img src=".github/assets/icons/cx.png" width="18" align="top">&nbsp;&nbsp;Cx File Explorer&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -60,9 +60,43 @@ recorded in the Git history.
 
 | 💊&nbsp;Patch | 📜&nbsp;Description |
 |----------|----------------|
-| <a id="cxxdroid-amoled-dark-theme"></a>[AMOLED dark theme](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/theme/AmoledThemePatch.kt) | Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active. |
-| <a id="cxxdroid-disable-tracking"></a>[Disable tracking](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/tracking/DisableTrackingPatch.kt) | Stops Firebase Analytics from collecting usage data. |
-| <a id="cxxdroid-unlock-premium"></a>[Unlock premium](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/premium/UnlockPremiumPatch.kt) | Unlocks premium and removes ads. |
+| <a id="cxxdroid-amoled-dark-theme"></a>AMOLED dark theme | Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active. |
+| <a id="cxxdroid-disable-tracking"></a>Disable tracking | Stops Firebase Analytics from collecting usage data. |
+| <a id="cxxdroid-unlock-premium"></a>Unlock premium | Unlocks premium and removes ads. |
+
+</details>
+
+<details open>
+<summary><img src=".github/assets/icons/jvdroid.png" width="18" align="top">&nbsp;&nbsp;Jvdroid&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 2.8 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description |
+|----------|----------------|
+| <a id="jvdroid-amoled-dark-theme"></a>AMOLED dark theme | Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active. |
+| <a id="jvdroid-disable-tracking"></a>Disable tracking | Stops Firebase Analytics from collecting usage data. |
+| <a id="jvdroid-unlock-premium"></a>Unlock premium | Unlocks premium and removes ads. |
+
+</details>
+
+<details open>
+<summary><img src=".github/assets/icons/pydroid.png" width="18" align="top">&nbsp;&nbsp;Pydroid 3&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 8.6_arm64 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description |
+|----------|----------------|
+| <a id="pydroid-3-amoled-dark-theme"></a>AMOLED dark theme | Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active. |
+| <a id="pydroid-3-disable-tracking"></a>Disable tracking | Stops Firebase Analytics from collecting usage data. |
+| <a id="pydroid-3-unlock-premium"></a>Unlock premium | Unlocks premium and removes ads. |
 
 </details>
 
@@ -102,8 +136,8 @@ recorded in the Git history.
 
 **🎯 Supported versions:**
 
-| 7.11.5 | 7.10.4 |
-| :---: | :---: |
+| 7.11.8 | 7.11.5 | 7.10.4 |
+| :---: | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description |
 |----------|----------------|
@@ -442,7 +476,7 @@ recorded in the Git history.
 </details>
 
 <details open>
-<summary>📦&nbsp;Yi iot&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary><img src=".github/assets/icons/yiiot.png" width="18" align="top">&nbsp;&nbsp;Yi iot&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
