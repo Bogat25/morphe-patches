@@ -41,7 +41,7 @@ val unlockPremiumPatch = bytecodePatch(
     name = "Unlock premium",
     description = "Unlocks premium and removes ads.",
 ) {
-    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.PYDROID)
+    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.JVDROID, AppCompatibilities.PYDROID)
 
     dependsOn(bypassSignatureCheckPatch, removeMobileAdsInitProviderPatch)
 

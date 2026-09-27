@@ -139,6 +139,14 @@ internal object AppCompatibilities {
         targets = listOf(AppTarget(version = "9.3.0", versionCode = 156, minSdk = 28)),
     )
 
+    val JVDROID = Compatibility(
+        name = "Jvdroid",
+        packageName = "ru.iiec.jvdroid",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0xE76F00,
+        targets = listOf(AppTarget(version = "2.8", versionCode = 1041, minSdk = 21)),
+    )
+
     val KICK = Compatibility(
         name = "Kick",
         packageName = "com.kick.mobile",

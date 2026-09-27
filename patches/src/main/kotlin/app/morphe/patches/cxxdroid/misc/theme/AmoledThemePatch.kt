@@ -210,7 +210,7 @@ val amoledThemePatch = bytecodePatch(
     description = "Adds an AMOLED option to Settings > Appearance > Editor theme (dark). " +
         "Applies only while the Dark theme is active.",
 ) {
-    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.PYDROID)
+    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.JVDROID, AppCompatibilities.PYDROID)
 
     dependsOn(bypassSignatureCheckPatch, amoledThemeResourcesPatch)
     extendWith("extensions/extension.mpe")
