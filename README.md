@@ -27,10 +27,6 @@ I also accept [requests for other apps](https://github.com/hxreborn/morphe-patch
 Based on prior work by [ReVanced](https://github.com/ReVanced). Changes and their dates are
 recorded in the Git history.
 
-App icons in the patches list belong to their respective developers and are used only to
-identify each app. They are not covered by this repository's licence. See
-[the icon notice](.github/assets/icons/README.md).
-
 &nbsp;
 ## 🩹 Patches list
 
@@ -769,3 +765,7 @@ additional conditions under GPLv3 Section 7 inherited from Morphe:
   brand this project, which is a third-party bundle *for use with* Morphe.
 
 See [NOTICE](NOTICE) for the full conditions.
+
+App icons in the patches list belong to their respective developers and are used only to
+identify each app. They are not covered by this repository's licence. See
+[the icon notice](.github/assets/icons/README.md).
