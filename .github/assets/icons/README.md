@@ -59,6 +59,9 @@ Every icon was taken from the developer's own published listing, website, or sou
 | `terabox.png` | TeraBox (`com.dubox.drive`) | Flextech Inc. | [Google Play listing](https://play.google.com/store/apps/details?id=com.dubox.drive) (`og:image`) |
 | `echogram.png` | Echogram (`com.liori.echogram`) | Illuzion Apps | [Google Play listing](https://play.google.com/store/apps/details?id=com.liori.echogram) (`og:image`) |
 | `cxxdroid.png` | Cxxdroid (`ru.iiec.cxxdroid`) | IIEC | [Google Play listing](https://play.google.com/store/apps/details?id=ru.iiec.cxxdroid) (`og:image`) |
+| `jvdroid.png` | Jvdroid (`ru.iiec.jvdroid`) | Lider Soft KZ | [Google Play listing](https://play.google.com/store/apps/details?id=ru.iiec.jvdroid) (`og:image`) |
+| `pydroid.png` | Pydroid 3 (`ru.iiec.pydroid3`) | Lider Soft KZ | [Google Play listing](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) (`og:image`) |
+| `yiiot.png` | Yi iot (`com.yunyi.smartcamera`) | Kami HK | [Google Play listing](https://play.google.com/store/apps/details?id=com.yunyi.smartcamera) (`og:image`) |
 
 `showly.png` comes from a repository published under GPLv3, so its copyright terms are
 compatible with this one. The rest are used under nominative fair use only, with no
