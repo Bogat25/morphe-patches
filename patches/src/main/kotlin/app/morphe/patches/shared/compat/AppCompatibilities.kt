@@ -261,6 +261,14 @@ internal object AppCompatibilities {
         targets = listOf(AppTarget(version = "5.20.39.0", versionCode = 605203900, minSdk = 26)),
     )
 
+    val PYDROID = Compatibility(
+        name = "Pydroid 3",
+        packageName = "ru.iiec.pydroid3",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x3776AB,
+        targets = listOf(AppTarget(version = "8.6_arm64", versionCode = 1133, minSdk = 23)),
+    )
+
     val QURANIFY = Compatibility(
         name = "Quranify",
         packageName = "com.mchutov.Quranify",

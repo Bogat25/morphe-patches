@@ -15,7 +15,7 @@ val disableTrackingPatch = bytecodePatch(
     name = "Disable tracking",
     description = "Stops Firebase Analytics from collecting usage data.",
 ) {
-    compatibleWith(AppCompatibilities.CXXDROID)
+    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.PYDROID)
 
     dependsOn(bypassSignatureCheckPatch)
 
