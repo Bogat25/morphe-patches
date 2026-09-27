@@ -35,7 +35,7 @@ identify each app. They are not covered by this repository's licence. See
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.31.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.31.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;88 patches total
+> **[v1.32.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.32.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;93 patches total
 <details open>
 <summary><img src=".github/assets/icons/cx.png" width="18" align="top">&nbsp;&nbsp;Cx File Explorer&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -50,6 +50,23 @@ identify each app. They are not covered by this repository's licence. See
 | <a id="cx-file-explorer-amoled-dark-theme"></a>[AMOLED dark theme](patches/src/main/kotlin/app/morphe/patches/cx/misc/theme/AmoledThemePatch.kt) | Adds a pure black option to the dark theme. |
 | <a id="cx-file-explorer-dark-theme"></a>[Dark theme](patches/src/main/kotlin/app/morphe/patches/cx/misc/theme/DarkThemePatch.kt) | Renders the app's dark theme and adds it to the settings. |
 | <a id="cx-file-explorer-unlock-premium"></a>[Unlock premium](patches/src/main/kotlin/app/morphe/patches/cx/misc/premium/UnlockPremiumPatch.kt) | Unlocks premium and removes ads. |
+
+</details>
+
+<details open>
+<summary><img src=".github/assets/icons/cxxdroid.png" width="18" align="top">&nbsp;&nbsp;Cxxdroid&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 5.6_arm64 | 6.0_arm64 |
+| :---: | :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description |
+|----------|----------------|
+| <a id="cxxdroid-amoled-dark-theme"></a>[AMOLED dark theme](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/theme/AmoledThemePatch.kt) | Adds an AMOLED option to Settings > Appearance > Editor theme (dark). Applies only while the Dark theme is active. |
+| <a id="cxxdroid-disable-tracking"></a>[Disable tracking](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/tracking/DisableTrackingPatch.kt) | Stops Firebase Analytics from collecting usage data. |
+| <a id="cxxdroid-unlock-premium"></a>[Unlock premium](patches/src/main/kotlin/app/morphe/patches/cxxdroid/misc/premium/UnlockPremiumPatch.kt) | Unlocks premium and removes ads. |
 
 </details>
 
@@ -123,7 +140,7 @@ identify each app. They are not covered by this repository's licence. See
 </details>
 
 <details open>
-<summary><img src=".github/assets/icons/protonvpn.png" width="18" align="top">&nbsp;&nbsp;Proton VPN&nbsp;&nbsp;•&nbsp;&nbsp;11 patches</summary>
+<summary><img src=".github/assets/icons/protonvpn.png" width="18" align="top">&nbsp;&nbsp;Proton VPN&nbsp;&nbsp;•&nbsp;&nbsp;12 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -135,6 +152,7 @@ identify each app. They are not covered by this repository's licence. See
 |----------|----------------|
 | <a id="proton-vpn-amoled-dark-theme"></a>[AMOLED dark theme](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/theme/AmoledThemePatch.kt) | Replaces the dark theme background with pure black. |
 | <a id="proton-vpn-custom-accent-color"></a>[Custom accent color](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/theme/AccentColorPatch.kt) | Changes the accent color. Choose a color in the patches menu. |
+| <a id="proton-vpn-disable-telemetry"></a>[Disable telemetry](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/telemetry/DisableTelemetryPatch.kt) | Stops sending usage statistics and diagnostics to Proton. |
 | <a id="proton-vpn-hide-upgrade-promotions"></a>[Hide upgrade promotions](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/upselling/HideUpgradePromotionsPatch.kt) | Hides settings that need a paid plan, upgrade banners, the Discover VPN Plus carousel and special offers. |
 | <a id="proton-vpn-remove-server-change-delay"></a>[Remove server change delay](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/delay/RemoveServerChangeDelayPatch.kt) | Removes the wait between server changes on free plans. |
 | <a id="proton-vpn-show-free-server-locations"></a>[Show free server locations](patches/src/main/kotlin/app/morphe/patches/protonvpn/misc/freeservers/ShowFreeServerLocationsPatch.kt) | Lists free server locations in Countries and Search and connects to the one you pick. Applies only to free plans. |
@@ -424,6 +442,21 @@ identify each app. They are not covered by this repository's licence. See
 | 💊&nbsp;Patch | 📜&nbsp;Description |
 |----------|----------------|
 | <a id="trainline-hide-ads"></a>[Hide ads](patches/src/main/kotlin/app/morphe/patches/trainline/ads/HideAdsPatch.kt) | Removes the adverts shown between search results. |
+
+</details>
+
+<details open>
+<summary>📦&nbsp;Yi iot&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 5.1.7_20260914 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description |
+|----------|----------------|
+| <a id="yi-iot-hide-ads"></a>[Hide ads](patches/src/main/kotlin/app/morphe/patches/yiiot/ads/HideAdsPatch.kt) | Removes splash, interstitial, banner and native ads. Keeps the optional ad that unlocks an alarm video. |
 
 </details>
 

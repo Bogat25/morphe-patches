@@ -1,3 +1,13 @@
+## [1.32.0](https://github.com/hxreborn/morphe-patches/compare/v1.31.0...v1.32.0) (2026-09-27)
+
+### New Features
+
+* **Cxxdroid - AMOLED dark theme:** add pure black editor theme option ([7b2ceeb](https://github.com/hxreborn/morphe-patches/commit/7b2ceeb84eae707fe4b58144f26f1c55b3b23e73))
+* **Cxxdroid - Disable tracking:** stop Firebase Analytics collection ([8666ec7](https://github.com/hxreborn/morphe-patches/commit/8666ec76150bb45e98b9a4a63fd924df5baade5a))
+* **Cxxdroid - Unlock premium:** unlock premium libraries and projects and remove ads ([f822181](https://github.com/hxreborn/morphe-patches/commit/f822181a9f83d1bfafb32c504702787872829058)), closes [#94](https://github.com/hxreborn/morphe-patches/issues/94)
+* **Proton VPN - Disable telemetry:** stop usage statistics and diagnostics uploads ([45fbb99](https://github.com/hxreborn/morphe-patches/commit/45fbb99a3ffad8eaf353ec86052c61f5bbbf59fa))
+* **Yi iot - Hide ads:** remove splash, interstitial, banner and native ads ([fb7d85d](https://github.com/hxreborn/morphe-patches/commit/fb7d85df33fd83c488829df22e0037557e979142)), closes [#93](https://github.com/hxreborn/morphe-patches/issues/93)
+
 ## [1.31.0](https://github.com/hxreborn/morphe-patches/compare/v1.30.0...v1.31.0) (2026-09-26)
 
 ### Bug Fixes
