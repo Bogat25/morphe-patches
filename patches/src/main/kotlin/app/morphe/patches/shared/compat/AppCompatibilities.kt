@@ -394,4 +394,12 @@ internal object AppCompatibilities {
         appIconColor = 0x007DFF,
         targets = listOf(AppTarget(version = "2.32.0", versionCode = 23200, minSdk = 32)),
     )
+
+    val YI_IOT = Compatibility(
+        name = "Yi iot",
+        packageName = "com.yunyi.smartcamera",
+        apkFileType = ApkFileType.XAPK_REQUIRED,
+        appIconColor = 0x38D880,
+        targets = listOf(AppTarget(version = "5.1.7_20260914", versionCode = 3799, minSdk = 24)),
+    )
 }
