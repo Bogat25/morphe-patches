@@ -2,7 +2,7 @@
  * Copyright (C) 2026 hxreborn
  * SPDX-License-Identifier: GPL-3.0-only
  */
-package app.morphe.patches.cxxdroid.misc.theme
+package app.morphe.patches.iiec.misc.theme
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
@@ -15,7 +15,7 @@ import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patcher.util.Document
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
-import app.morphe.patches.cxxdroid.misc.fix.signature.bypassSignatureCheckPatch
+import app.morphe.patches.iiec.misc.fix.signature.bypassSignatureCheckPatch
 import app.morphe.patches.shared.compat.AppCompatibilities
 import app.morphe.util.adoptChild
 import app.morphe.util.childElementsSequence
@@ -40,7 +40,7 @@ import com.android.tools.smali.dexlib2.iface.reference.MethodReference
 import com.android.tools.smali.dexlib2.immutable.ImmutableMethod
 import org.w3c.dom.Element
 
-private const val EXTENSION_CLASS = "Lapp/hxreborn/extension/cxxdroid/AmoledTheme;"
+private const val EXTENSION_CLASS = "Lapp/hxreborn/extension/iiec/AmoledTheme;"
 private const val ON_CREATE_METHOD = "onCreate"
 
 private const val AMOLED_VALUE = "amoled"
@@ -54,7 +54,7 @@ private const val DARK_EDITOR_THEME_TITLES_ARRAY = "pref_appearance_editor_theme
 private const val DARK_EDITOR_THEME_VALUES_ARRAY = "pref_appearance_editor_theme_dark_values"
 private const val DARK_EDITOR_THEME_PREFERENCE_KEY = "appearance_editor_theme_dark"
 
-private const val OVERLAY_STYLE = "hx_cxxdroid_amoled_theme_overlay"
+private const val OVERLAY_STYLE = "hx_iiec_amoled_theme_overlay"
 private const val BLACK = "#000000"
 
 private val OVERLAY_ITEMS = mapOf(
@@ -78,7 +78,7 @@ private val CHROME_LAYOUT_FILES = listOf(
     "res/layout/layout_project_info.xml",
 )
 
-private fun resolveHardcodedChromeBackgrounds(document: Document) {
+private fun replaceHardcodedPrimaryBackgrounds(document: Document, path: String) {
     val elements = document.getElementsByTagName("*")
     var replaced = 0
 
@@ -92,7 +92,7 @@ private fun resolveHardcodedChromeBackgrounds(document: Document) {
     }
 
     if (replaced == 0) {
-        throw PatchException("Could not find a hardcoded colorPrimary background")
+        throw PatchException("No $HARDCODED_PRIMARY_BACKGROUND background in $path")
     }
 }
 
@@ -140,7 +140,7 @@ private val amoledThemeResourcesPatch = resourcePatch {
         }
 
         CHROME_LAYOUT_FILES.forEach { path ->
-            document(path).use { document -> resolveHardcodedChromeBackgrounds(document) }
+            document(path).use { document -> replaceHardcodedPrimaryBackgrounds(document, path) }
         }
 
         document("AndroidManifest.xml").use { document ->
@@ -210,7 +210,7 @@ val amoledThemePatch = bytecodePatch(
     description = "Adds an AMOLED option to Settings > Appearance > Editor theme (dark). " +
         "Applies only while the Dark theme is active.",
 ) {
-    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.JVDROID, AppCompatibilities.PYDROID)
+    compatibleWith(*AppCompatibilities.IIEC_APPS)
 
     dependsOn(bypassSignatureCheckPatch, amoledThemeResourcesPatch)
     extendWith("extensions/extension.mpe")

@@ -2,7 +2,7 @@
  * Copyright (C) 2026 hxreborn
  * SPDX-License-Identifier: GPL-3.0-only
  */
-package app.morphe.patches.cxxdroid.misc.premium
+package app.morphe.patches.iiec.misc.premium
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.removeInstruction
@@ -10,7 +10,7 @@ import app.morphe.patcher.methodCall
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.resourcePatch
-import app.morphe.patches.cxxdroid.misc.fix.signature.bypassSignatureCheckPatch
+import app.morphe.patches.iiec.misc.fix.signature.bypassSignatureCheckPatch
 import app.morphe.patches.shared.compat.AppCompatibilities
 import app.morphe.util.asSequence
 import app.morphe.util.findFreeRegister
@@ -41,7 +41,7 @@ val unlockPremiumPatch = bytecodePatch(
     name = "Unlock premium",
     description = "Unlocks premium and removes ads.",
 ) {
-    compatibleWith(AppCompatibilities.CXXDROID, AppCompatibilities.JVDROID, AppCompatibilities.PYDROID)
+    compatibleWith(*AppCompatibilities.IIEC_APPS)
 
     dependsOn(bypassSignatureCheckPatch, removeMobileAdsInitProviderPatch)
 

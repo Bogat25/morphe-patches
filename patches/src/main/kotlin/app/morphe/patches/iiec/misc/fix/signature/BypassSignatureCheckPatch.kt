@@ -8,7 +8,7 @@
  * Commit 3ad54cf13090739041b9f74c64c95e9994a0d980 (2026-07-27),
  * patches/src/main/kotlin/hoodles/morphe/patches/pydroid/misc/meta/IncludeOriginalMetadataPatch.kt
  */
-package app.morphe.patches.cxxdroid.misc.fix.signature
+package app.morphe.patches.iiec.misc.fix.signature
 
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.rawResourcePatch

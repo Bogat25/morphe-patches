@@ -277,6 +277,8 @@ internal object AppCompatibilities {
         targets = listOf(AppTarget(version = "8.6_arm64", versionCode = 1133, minSdk = 23)),
     )
 
+    val IIEC_APPS = arrayOf(CXXDROID, JVDROID, PYDROID)
+
     val QURANIFY = Compatibility(
         name = "Quranify",
         packageName = "com.mchutov.Quranify",

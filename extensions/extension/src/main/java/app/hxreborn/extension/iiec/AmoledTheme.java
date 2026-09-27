@@ -2,7 +2,7 @@
  * Copyright (C) 2026 hxreborn
  * SPDX-License-Identifier: GPL-3.0-only
  */
-package app.hxreborn.extension.cxxdroid;
+package app.hxreborn.extension.iiec;
 
 import android.app.Activity;
 import android.app.Application;
@@ -23,7 +23,7 @@ import java.util.List;
 public final class AmoledTheme {
     private static final String EDITOR_THEME_DARK_PREFERENCE_KEY = "appearance_editor_theme_dark";
     private static final String AMOLED_VALUE = "amoled";
-    private static final String OVERLAY_STYLE = "hx_cxxdroid_amoled_theme_overlay";
+    private static final String OVERLAY_STYLE = "hx_iiec_amoled_theme_overlay";
     private static final String[] APP_PACKAGE_PREFIXES = {"ru.iiec.", "iiec.androidterm."};
 
     private static final List<Activity> appActivities = new ArrayList<>();
