@@ -31,7 +31,7 @@ recorded in the Git history.
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.35.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.35.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;102 patches total
+> **[v1.36.0](https://github.com/hxreborn/morphe-patches/releases/tag/v1.36.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;102 patches total
 <details open>
 <summary>📦&nbsp;BlurWall&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -331,7 +331,7 @@ recorded in the Git history.
 
 **🎯 Supported versions:**
 
-| 1.3.1 |
+| 1.3.2 |
 | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description |
