@@ -18,13 +18,13 @@ jobs:
           days-before-issue-close: 7
           stale-issue-label: "stale"
           stale-issue-message: |
-            💤 **Quiet for 30 days.**
-            This closes in 7 days unless someone comments.
+            **Marked stale after 30 days without activity.**
+            It closes in 7 days unless someone comments.
 
             Your **triage** bot 🤖
           close-issue-message: |
-            🌙 **Closing after a quiet month.**
-            If this still matters, comment below and a maintainer will reopen it.
+            **Closed after 7 more days without activity.**
+            If it still matters, comment below and a maintainer will reopen it.
 
             Your **triage** bot 🤖
           days-before-pr-stale: -1
@@ -40,13 +40,13 @@ jobs:
           days-before-issue-close: 7
           stale-issue-label: "stale"
           stale-issue-message: |
-            📭 **Still waiting on the details asked for above.**
-            This closes in 7 days if they don't show up.
+            **Still waiting on the details asked for above.**
+            It closes in 7 days without them.
 
             Your **triage** bot 🤖
           close-issue-message: |
-            📪 **Closing, the requested details never arrived.**
-            Open a new issue with them filled in, or comment below if this closure seems wrong.
+            **Closed because the requested details never arrived.**
+            Open a new issue with them, or comment below if this closure seems wrong.
 
             Your **triage** bot 🤖
           close-issue-reason: not_planned
