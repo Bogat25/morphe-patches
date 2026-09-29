@@ -1,3 +1,9 @@
+## [1.35.0](https://github.com/hxreborn/morphe-patches/compare/v1.34.0...v1.35.0) (2026-09-29)
+
+### New Features
+
+* **Proton Mail - Remove 'Sent from' signature:** unlock mobile signature setting ([8238e4c](https://github.com/hxreborn/morphe-patches/commit/8238e4cce1b98b236c476dc9d1bfc14d0c1ab3b7)), closes [#97](https://github.com/hxreborn/morphe-patches/issues/97)
+
 ## [1.34.0](https://github.com/hxreborn/morphe-patches/compare/v1.33.0...v1.34.0) (2026-09-28)
 
 ### New Features
