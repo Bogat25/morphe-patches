@@ -20,7 +20,7 @@ import com.android.tools.smali.dexlib2.util.ReferenceUtil
 @Suppress("unused")
 val unlockPremiumPatch = bytecodePatch(
     name = "Unlock premium",
-    description = "Unlocks all whips, including whips added in later app versions.",
+    description = "Unlocks all whips.",
 ) {
     compatibleWith(AppCompatibilities.POCKET_WHIP)
 

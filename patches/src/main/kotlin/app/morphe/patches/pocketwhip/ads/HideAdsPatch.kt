@@ -7,16 +7,20 @@ package app.morphe.patches.pocketwhip.ads
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.shared.compat.AppCompatibilities
+import app.morphe.patches.shared.misc.ads.removeMobileAdsInitProviderPatch
 import app.morphe.util.matchSingle
+import app.morphe.util.returnEarly
 
 private const val VIEW_GONE = 0x8
 
 @Suppress("unused")
 val hideAdsPatch = bytecodePatch(
     name = "Hide ads",
-    description = "Hides the banner ad and stops it from loading.",
+    description = "Hides the banner and stops ads from loading.",
 ) {
     compatibleWith(AppCompatibilities.POCKET_WHIP)
+
+    dependsOn(removeMobileAdsInitProviderPatch)
 
     execute {
         // Hide the banner instead of loading it. Patching the SDK rather than the app keeps the app's own
@@ -30,5 +34,7 @@ val hideAdsPatch = bytecodePatch(
                 return-void
             """,
         )
+        MobileAdsInitializeFingerprint.matchSingle().method.returnEarly()
+        RewardedAdLoadFingerprint.matchSingle().method.returnEarly()
     }
 }
